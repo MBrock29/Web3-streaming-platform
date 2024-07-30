@@ -4,10 +4,6 @@ pragma solidity ^0.8.13;
 contract Subscription {
     uint256 subscriptionAmount = 5e18;
 
-    // constructor() payable {
-    //     subscriptionAmount = 5e18;
-    // }
-
     event Subscribed(
         address indexed user,
         address indexed streamer,
